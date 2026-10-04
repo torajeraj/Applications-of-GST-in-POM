@@ -85,11 +85,11 @@ To reproduce the numerical examples presented in the book:
 
 If you use this software or the accompanying datasets in your academic research or teaching, please cite both the book and the software archive:
 
-      Karimi, T., and Lin, Y. (2027). Application of Grey Systems Theory in Production and Operations Management. Springer.                                                              bibtex
+      Karimi, T., and Lin, Y. (2027). Application of Grey Systems Theory in Production and Operations Management. Springer.                                                             
       Karimi, T., and Lin, Y. (2027). Application of Grey Systems Theory in Production and Operations Management (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23132816
 
 ---
 
 ## 7. License
-    This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
+  This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
 ---
