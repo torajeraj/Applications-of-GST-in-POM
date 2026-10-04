@@ -47,7 +47,7 @@ You do not need prior experience with Git to use this software:
 
     All Python scripts (Login.py, main_app.py, and the individual module files) must be kept together in the same directory. The data folder (/data) containing the Excel and JSON files must also remain in its relative position so the modules can reference them directly.
 
-Step 2: Install Required Python Libraries
+### Step 2: Install Required Python Libraries
 
 The software requires several standard scientific Python libraries. 
 
@@ -85,26 +85,11 @@ To reproduce the numerical examples presented in the book:
 
 If you use this software or the accompanying datasets in your academic research or teaching, please cite both the book and the software archive:
 
-                                                                    bibtex
-@book{KarimiErajGreyPOM2026,
-  author    = {Karimi, ،Tooraj and Lin, Yi},
-  title     = {Application of Grey Systems Theory in Production and Operations Management},
-  publisher = {Springer},
-  year      = {2027}
-}
-
-@software{KarimiErajSoftware2026,
-  author    = {Karimi, ،Tooraj and Lin, Yi},
-  title     = {Application of Grey Systems Theory in Production and Operations Management},
-  year      = {2027},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23132816},
-  url       = {https://doi.org/10.5281/zenodo.23132816}
-}
+      Karimi, T., and Lin, Y. (2027). Application of Grey Systems Theory in Production and Operations Management. Springer.                                                              bibtex
+      Karimi, T., and Lin, Y. (2027). Application of Grey Systems Theory in Production and Operations Management (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23132816
 
 ---
 
 ## 7. License
-
-This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
+    This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
 ---
