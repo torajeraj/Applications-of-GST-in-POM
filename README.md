@@ -60,6 +60,8 @@ If you prefer to install the packages individually, execute:
                                                                     bash
 pip install numpy pandas matplotlib openpyxl
 
+---
+
 ## 4. Running the Application
 
 Once the required libraries are installed, start the software by running the login script:
