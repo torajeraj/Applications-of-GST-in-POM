@@ -49,15 +49,7 @@ You do not need prior experience with Git to use this software:
 
 Step 2: Install Required Python Libraries
 
-The software requires several standard scientific Python libraries. Open your command line interface (Command Prompt or PowerShell on Windows, or Terminal on macOS/Linux), navigate to your extracted folder, and run:
-
-                                                                    bash
-pip install -r requirements.txt
-
-If you prefer to install the packages individually, execute:
-
-                                                                    bash
-pip install numpy pandas matplotlib openpyxl
+The software requires several standard scientific Python libraries. 
 
 ---
 
@@ -69,10 +61,9 @@ Once the required libraries are installed, start the software by running the log
     Navigate to the project folder where the files are extracted (for example: cd C:\Users\YourName\Grey-Systems-POM).
     Execute the following command:
 
-                                                                    bash
-   python Login.py
+         python Login.py                                                            bash
+  
    
-
     The GST Login window will appear. Click the entry confirmation button.
     The Main Application Window will open, displaying the navigation tree on the left.
     Expand any branch (e.g., Grey Forecasting, Grey Line Balancing, Grey MRP), select the desired method, and the module interface will load in the main panel.
@@ -117,10 +108,3 @@ If you use this software or the accompanying datasets in your academic research 
 
 This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
 ---
-
-## 7. License
-
-This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
-
-
-
