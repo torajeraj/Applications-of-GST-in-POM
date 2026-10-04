@@ -117,3 +117,8 @@ If you use this software or the accompanying datasets in your academic research 
 ## 7. License
 
 This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
+---
+
+## 7. License
+
+This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
