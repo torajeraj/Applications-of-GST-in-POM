@@ -78,6 +78,8 @@ Once the required libraries are installed, start the software by running the log
     The Main Application Window will open, displaying the navigation tree on the left.
     Expand any branch (e.g., Grey Forecasting, Grey Line Balancing, Grey MRP), select the desired method, and the module interface will load in the main panel.
 
+---
+
 ## 5. Using the Example Datasets (Excel & JSON)
 
 To reproduce the numerical examples presented in the book:
@@ -86,6 +88,8 @@ To reproduce the numerical examples presented in the book:
     Navigate to the data/excel_examples/ or data/json_examples/ folder.
     Select the file corresponding to the chapter or method you are studying (e.g., Chapter03_MRP_Simple.xlsx).
     Click Run / Solve to view the step-by-step computational results and figures without entering numerical matrices manually.
+
+---
 
 ## 6. Citation
 
@@ -108,6 +112,8 @@ If you use this software or the accompanying datasets in your academic research 
   url       = {https://doi.org/10.5281/zenodo.23132816}
 }
 
-7. License
+---
+
+## 7. License
 
 This project is distributed for academic, educational, and research purposes. Please refer to the repository license for permissions and usage rights.
