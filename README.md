@@ -60,7 +60,7 @@ If you prefer to install the packages individually, execute:
                                                                     bash
 pip install numpy pandas matplotlib openpyxl
 
-4. Running the Application
+## 4. Running the Application
 
 Once the required libraries are installed, start the software by running the login script:
 
@@ -76,7 +76,7 @@ Once the required libraries are installed, start the software by running the log
     The Main Application Window will open, displaying the navigation tree on the left.
     Expand any branch (e.g., Grey Forecasting, Grey Line Balancing, Grey MRP), select the desired method, and the module interface will load in the main panel.
 
-5. Using the Example Datasets (Excel & JSON)
+## 5. Using the Example Datasets (Excel & JSON)
 
 To reproduce the numerical examples presented in the book:
 
@@ -85,7 +85,7 @@ To reproduce the numerical examples presented in the book:
     Select the file corresponding to the chapter or method you are studying (e.g., Chapter03_MRP_Simple.xlsx).
     Click Run / Solve to view the step-by-step computational results and figures without entering numerical matrices manually.
 
-6. Citation
+## 6. Citation
 
 If you use this software or the accompanying datasets in your academic research or teaching, please cite both the book and the software archive:
 
