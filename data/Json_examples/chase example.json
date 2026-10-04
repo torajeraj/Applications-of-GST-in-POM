@@ -1,0 +1,48 @@
+{
+  "periods": [
+    {
+      "period": "1",
+      "demand": "[100.0,120.0]"
+    },
+    {
+      "period": "2",
+      "demand": "[180.0,200.0]"
+    },
+    {
+      "period": "3",
+      "demand": "[140.0,170.0]"
+    },
+    {
+      "period": "4",
+      "demand": "[40.0,55.0]"
+    }
+  ],
+  "params": {
+    "W0": "3",
+    "I0": "0",
+    "B0": "0",
+    "P": [
+      "50",
+      "55"
+    ]
+  },
+  "costs": {
+    "C_reg": [
+      "10",
+      "14"
+    ],
+    "C_hire": [
+      "380",
+      "410"
+    ],
+    "C_fire": [
+      "590",
+      "620"
+    ],
+    "C_pers": [
+      "1000",
+      "1100"
+    ]
+  },
+  "result": "📦 Grey Aggregate Planning — Chase Strategy (accept iff P(Q>D)>0.5)\nW0=3, I0=0.0, B0=0.0\nP=[50,55] | Costs: C_reg=[10,14], C_hire=[380,410], C_fire=[590,620], C_pers=[1000,1100]\n------------------------------------------------------------\n\nPeriod 1\nDemand D_t = [100,120]\nW_req = D_t / P = [1.818182,2.4]\nCandidates W (ceil lower/upper only): [2, 3]\nCandidate evaluation:\n  W=  2 | Qreg=[100,110] | P(Q>D)=0.250000 | Reject\n  W=  3 | Qreg=[150,165] | P(Q>D)=1.000000 | Cost_total=[4000,4980]\nRegret ranking on total cost (minimization via MRA on -Cost):\n  W=  3 | Cost_total=[4000,4980] | rank=1\n→ Using Regret, the smaller grey cost is selected: W=3 | Cost_total=[4000,4980]\n→ Chosen W_t = 3\n   Hire=0, Fire=0, Qreg=[150,165], Total cost=[4000,4980]\n\nPeriod 2\nDemand D_t = [180,200]\nW_req = D_t / P = [3.272727,4]\nCandidates W (ceil lower/upper only): [4]\nCandidate evaluation:\n  W=  4 | Qreg=[200,220] | P(Q>D)=1.000000 | Cost_total=[6180,7610]\nRegret ranking on total cost (minimization via MRA on -Cost):\n  W=  4 | Cost_total=[6180,7610] | rank=1\n→ Using Regret, the smaller grey cost is selected: W=4 | Cost_total=[6180,7610]\n→ Chosen W_t = 4\n   Hire=1, Fire=0, Qreg=[200,220], Total cost=[6180,7610]\n\nPeriod 3\nDemand D_t = [140,170]\nW_req = D_t / P = [2.545455,3.4]\nCandidates W (ceil lower/upper only): [3, 4]\nCandidate evaluation:\n  W=  3 | Qreg=[150,165] | P(Q>D)=0.583333 | Cost_total=[4990,6300]\n  W=  4 | Qreg=[200,220] | P(Q>D)=1.000000 | Cost_total=[5400,6780]\nRegret ranking on total cost (minimization via MRA on -Cost):\n  W=  3 | Cost_total=[4990,6300] | rank=2\n  W=  4 | Cost_total=[5400,6780] | rank=1\n→ Using Regret, the smaller grey cost is selected: W=3 | Cost_total=[4990,6300]\n→ Chosen W_t = 3\n   Hire=0, Fire=1, Qreg=[150,165], Total cost=[4990,6300]\n\nPeriod 4\nDemand D_t = [40,55]\nW_req = D_t / P = [0.727273,1.1]\nCandidates W (ceil lower/upper only): [1, 2]\nCandidate evaluation:\n  W=  1 | Qreg=[50,55] | P(Q>D)=0.833333 | Cost_total=[2580,3110]\n  W=  2 | Qreg=[100,110] | P(Q>D)=1.000000 | Cost_total=[2990,3590]\nRegret ranking on total cost (minimization via MRA on -Cost):\n  W=  1 | Cost_total=[2580,3110] | rank=2\n  W=  2 | Cost_total=[2990,3590] | rank=1\n→ Using Regret, the smaller grey cost is selected: W=1 | Cost_total=[2580,3110]\n→ Chosen W_t = 1\n   Hire=0, Fire=2, Qreg=[50,55], Total cost=[2580,3110]\n\n===== Summary (Chase) =====\nPeriod | Demand [a,b] | W_req [a,b] | W | Hire | Fire | Qreg [a,b] | Cost_pers | Cost_reg | Cost_hire | Cost_fire | Cost_total\n------------------------------------------------------------------------------------------------------------------------------\n     1 |     [100,120] | [1.818182,2.4] |  3 |    0 |    0 |  [150,165] | [3000,3300] | [1000,1680] |      [0,0] |      [0,0] | [4000,4980]\n     2 |     [180,200] |  [3.272727,4] |  4 |    1 |    0 |  [200,220] | [4000,4400] | [1800,2800] |  [380,410] |      [0,0] | [6180,7610]\n     3 |     [140,170] | [2.545455,3.4] |  3 |    0 |    1 |  [150,165] | [3000,3300] | [1400,2380] |      [0,0] |  [590,620] | [4990,6300]\n     4 |       [40,55] | [0.727273,1.1] |  1 |    0 |    2 |    [50,55] | [1000,1100] | [400,770] |      [0,0] | [1180,1240] | [2580,3110]\n\nGrand total cost (Chase): [17750,22000]\n------------------------------------------------------------\nCompleted."
+}
